@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke test">
+    <test name="Parameters test">
+        <parameter name="number" value="1000"></parameter>
+        <parameter name="email" value="test.test@gmail.com"></parameter>
+        <parameter name="password" value="myPassword12345"></parameter>
+        <parameter name="name" value="John Doe"></parameter>
+        <parameter name="country" value="USA"></parameter>
+        <parameter name="city" value="Chicago"></parameter>
+        <parameter name="cc" value="4646990011112222"></parameter>
+        <parameter name="month" value="12"></parameter>
+        <parameter name="year" value="2027"></parameter>
+        <classes>
+            <class name="test_ng.BlazeTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--    !-->
+<suite name="Regression">
+    <test name="Sauce Demo">
+        <classes>
+           <class name="com.saucedemo.scripts.SauceLabScripts">
+<!--               <methods>-->
+<!--                   <exclude name="test2"></exclude>-->
+<!--               </methods>-->
+           </class>
+        </classes>
+    </test>
+</suite>
